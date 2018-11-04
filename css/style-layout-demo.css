@@ -1,0 +1,59 @@
+* {
+
+}
+
+.header {
+    border: 1px solid red;
+    height: 150px;
+}
+.header .logo {
+    float: left;
+    width: 12%;
+}
+.header .logo img {
+    height: 150px;
+    width: 150px;
+}
+.header .banner {
+    float: right;
+    width: 88%;
+}
+.header .banner img {
+    height: 150px;
+    width: 100%;
+}
+.body {
+    border: 1px solid blue;
+    height: 500px;
+}
+.body .navigation {
+    border: 1px solid peru;
+    float: left;
+    width: 12%;
+    height: 498px;
+}
+.body .main-content {
+    border: 1px solid black;
+    float: left;
+    width: 80%;
+}
+.main-content .row {
+    display: inline-block;
+    border: 1px solid olive;
+    height: 300px;
+}
+.row .item {
+    float: left;
+    width: 33%;
+}
+.row .item img {
+    width: 50%;
+    margin: 50px;
+}
+.footer {
+    border: 1px solid green;
+    height: 70px;
+}
+.clear-both {
+    clear: both;
+}
