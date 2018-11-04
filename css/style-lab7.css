@@ -1,0 +1,96 @@
+* {
+    font-family: "Comic Sans MS";
+}
+.header {
+    border: 2.5px solid black;
+    height: 100px;
+    width: 100%;
+    background: lightcyan;
+    position: fixed;
+    top: 0;
+
+}
+.introduce {
+    border-right: 2.5px solid black;
+    border-left: 2.5px solid black;
+    height: 100px;
+    background: skyblue;
+    color: white;
+    padding-top: 100px;
+}
+.content {
+    border-right: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-top: 2.5px solid black;
+    height: 800px;
+}
+.footer {
+    border: 2.5px solid black;
+    height: 50px;
+    background: skyblue;
+}
+.header .logo img {
+    height: 60px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.header .course-name {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+ul {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+li {
+    display: inline;
+}
+.introduce .intro1 {
+    position: relative;
+    top: 20px;
+    left: 350px;
+}
+.introduce .intro2 {
+    position: relative;
+    top: 27px;
+    left: 830px;
+}
+.content .blank {
+    width: 200px;
+    height: 800px;
+    float: left;
+}
+.content .item {
+    display: inline-block;
+    height: 150px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.content .item .title {
+    color: darkblue;
+    text-decoration: underline;
+}
+.content .item .detail {
+    font-size: 14px;
+}
+.footer p {
+    text-align: center;
+    color: white;
+}
+.back-to-top {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    position: fixed;
+    z-index: 9999;
+    display: block;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+}
