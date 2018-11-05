@@ -14,6 +14,7 @@
     border-right: 2.5px solid black;
     border-left: 2.5px solid black;
     height: 100px;
+    width: 100%;
     background: skyblue;
     color: white;
     padding-top: 100px;
@@ -23,11 +24,13 @@
     border-left: 2.5px solid black;
     border-top: 2.5px solid black;
     height: 800px;
+    width: 100%;
 }
 .footer {
     border: 2.5px solid black;
     height: 50px;
     background: skyblue;
+    width: 100%;
 }
 .header .logo img {
     height: 60px;
