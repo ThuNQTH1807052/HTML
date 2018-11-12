@@ -50,6 +50,7 @@ html {
     height: 200px;
     background-image: url('http://imageshack.com/a/img924/7607/jzuWMY.png');
     background-size: contain;
+    background-repeat: no-repeat;
     margin: 50px;
 }
 .footer {
